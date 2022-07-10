@@ -1,34 +1,49 @@
-body { 
-    margin: 0;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+@font-face {
+    font-family: 'Montserat';
+    src: url("/assets/Montserrat/Montserrat-VariableFont_wght.ttf")
 }
 
-iframe { 
-    width: 1900px;
-    height:950px
+body {
+    margin: 0;
+    font-family: 'Montserat';
+    background-color: black;
+}
+
+iframe {
+    width: 1200px;
+    height: 950px;
+    display: flex;
+    margin: auto;
 }
 
 .dropdown-content {
     display: none;
-    background-color: #ccc;
+    background-color: black;
 }
 
 
 .dropdown-trigger {
-    background-color: #eee;
+    background-color: #fff563;
     color: #444;
     cursor: pointer;
     padding: 18px;
     width: 100%;
-    text-align: left;
     border: none;
     outline: none;
     transition: 0.4s;
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: 'Montserat';
+
 }
 
-.active, .accordion:hover {
-    background-color: #ccc;
-  }
+.active,
+.accordion:hover {
+    background-color: black;
+    color: #fff563
+}
 
 .header {
     width: 100%;
@@ -44,4 +59,28 @@ iframe {
 .header-content {
     display: flex;
     justify-content: center;
+}
+
+.block-container {
+    display: flex;
+    width: 800px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.caption {
+    font-size: 26px;
+    font-weight: 600;
+    font-family: Hiragino Maru Gothic ProN;
+}
+
+.stream {
+    width: 200px;
+    height: 120px;
+}
+
+.title {
+    color: #fff563;
+    font-family: 'Montserat';
+    font-weight: 900;
 }
