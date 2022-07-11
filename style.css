@@ -14,6 +14,7 @@ a {
     text-decoration: none;
 }
 
+
 iframe {
     width: 1200px;
     height: 950px;
@@ -78,7 +79,7 @@ iframe {
 .caption {
     font-size: 26px;
     font-weight: 600;
-    font-family: Hiragino Maru Gothic ProN;
+    font-family: 'Montserat'
 }
 
 .stream {
@@ -89,5 +90,14 @@ iframe {
 .title {
     color: #fff563;
     font-family: 'Montserat';
+    font-weight: 900;
+}
+
+.watch-here {
+    text-align: center;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-weight: 900;
 }
