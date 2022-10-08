@@ -91,6 +91,8 @@ iframe {
     color: #fff563;
     font-family: 'Montserat';
     font-weight: 900;
+    display: flex;
+    justify-content: space-between;
 }
 
 .watch-here {
